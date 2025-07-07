@@ -41,3 +41,24 @@ A linear data structure is a type of data structure where the elements are arran
 
 ⭐ **Queue:**  A First-In-First-Out (FIFO) data structure, where elements are added to the end and removed from the front.
 
+## 2. Non-Linear Data Structure
+A non-linear data structure is a type of data structure where the elements are not stored sequentially. It allows for more complex relationships between elements. In these structures, each element can be connected to multiple elements, and there is no single ‘next’ or ‘previous’ element in a simple sequence. The non-linear data structure is classified into two types:
+
+⭐ **Trees:** A hierarchical structure where each node has a finite number of child nodes. It can be represented as:
+
+⭐ **Binary Trees:** There are only two children per node (left and right).
+
+⭐ **Balanced Trees:** Trees that maintain a balance between the height of the left and right subtrees.
+
+⭐ **AVL Trees:** A self-balancing binary search tree.
+
+⭐ **B-Trees:** A multi-level index that balances search, insertion, and deletion operations.
+
+⭐ **Heaps:** Tree-based data structure that satisfies the heap property.
+
+⭐ **Graphs:** A graph is a non-linear collection of nodes connected by edges. It can be represented as:
+
+⭐ **Directed Graphs:** Edges have direction and represent a one-way relationship.
+
+⭐ **Undirected Graphs:** Edges are bidirectional and represent a two-way relationship.
+

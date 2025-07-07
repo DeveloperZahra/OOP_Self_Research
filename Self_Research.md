@@ -85,4 +85,6 @@ The main aim of OOP is to bind together the data and the functions
 that operate on them so that no other part
 of the code can access this data except that function.
 
-![](image/SequenceDiagramExample.png)
+## 📌 OOPs Concepts
+
+![](image/OOP.jfif)

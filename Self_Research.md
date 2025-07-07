@@ -100,3 +100,6 @@ of the code can access this data except that function.
 ⭐It ensures code reusability. 
 
 ⭐It lets us write generic code: which will work with a range of data, so we don't have to write basic stuff over and over again.
+
+
+![](image/ClassConceptsObjectOrientedProgramming.webp)

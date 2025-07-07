@@ -88,3 +88,15 @@ of the code can access this data except that function.
 ## 📌 OOPs Concepts
 
 ![](image/OOP.jfif)
+
+## 📌 Why do we need object-oriented programming:
+
+⭐ To make the development and maintenance of projects more effortless. 
+
+⭐ To provide the feature of data hiding that is good for security concerns. 
+
+⭐ We can solve real-world problems if we are using object-oriented programming. 
+
+⭐It ensures code reusability. 
+
+⭐It lets us write generic code: which will work with a range of data, so we don't have to write basic stuff over and over again.

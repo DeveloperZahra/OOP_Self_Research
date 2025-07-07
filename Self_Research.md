@@ -22,7 +22,7 @@ There are 5 common data types namely:
 
 ✅ Boolean: Logical values (true or false)
 
-📌 Types of Data Structure:
+## 📌 Types of Data Structure:
 
 Data structures are categorized based on their organization, accessibility, and manipulation of data. They are broadly classified into 2 types:
 
@@ -62,3 +62,14 @@ A non-linear data structure is a type of data structure where the elements are n
 
 ⭐ **Undirected Graphs:** Edges are bidirectional and represent a two-way relationship.
 
+
+
+## 📌 When to Use Data Types vs Data Structures:
+
+Understanding when to use data types and data structures is key for managing efficient and optimized code.
+
+⭐ Data types are ideal when you are dealing with simple values like numbers or text. 
+For example, if you need to store a user's age, you will use an integer data type.
+
+⭐ Data structures are required to store or manipulate multiple values efficiently. 
+For example, if you need to keep track of a list of students, a data structure like an array or linked list would be more suitable.

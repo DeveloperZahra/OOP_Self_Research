@@ -7,6 +7,15 @@
 |Can hold values and not data, so it is data less|	Can hold different kind and types of data within one single object|
 |Values can directly be assigned to the data type variables	|The data is assigned to the data structure object using some set of algorithms and operations like push, pop and so on.|
 |No problem of time complexity	| Time complexity comes into play when working with data structures|
-|Examples: int, float, double	|Examples: stacks, queues, tree|
+
+📌 Types of Data Type:
+
+There are 5 common data types namely:
+
+✅ Integer: Whole numbers (e.g., 1, 2, 3)
+✅ Float: Decimal numbers (e.g., 3.14, -0.5)
+✅ Character: Single characters (e.g., ‘a’, ‘B’)
+✅ String: Sequences of characters (e.g., ‘hello’, ‘goodbye’)
+✅ Boolean: Logical values (true or false)
 
 

@@ -296,3 +296,13 @@ Static constructor called.
 ```sql 
 Console.WriteLine(Car.MaxSpeed);  // Access static field directly
 ```
+
+## 🧠 Summary of Constructor Types in C#
+
+| **Constructor Type**          | **Accepts Parameters?** | **Purpose**                                             | **Notes**                                                                          |
+| ----------------------------- | ----------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| **Default Constructor**       | ❌ No                    | Initializes default values                              | Called automatically when no parameters are passed                                 |
+| **Parameterized Constructor** | ✅ Yes                   | Allows setting custom values during object creation     | Flexible and commonly used                                                         |
+| **Copy Constructor**          | ✅ Yes (an object)       | Creates a new object by copying another object’s values | Useful for creating independent duplicates                                         |
+| **Static Constructor**        | ❌ No                    | Initializes static members (shared across all objects)  | Called once automatically, before any object is created or static members accessed |
+

@@ -205,4 +205,9 @@ It runs once only, automatically, before the first object is created or any stat
 ✅ It runs only once per class, not per object.
 
 
+## 🧠 What are Static Fields?
+A static field belongs to the class itself, not to any specific object.
+This means all instances of the class share the same static field.
+
+
 

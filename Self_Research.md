@@ -157,5 +157,16 @@ public string Brand { get; } = "Toyota";
 ```
 You can only read this value. It can't be changed after initialization.
 
+**2. Write-only Property**
+
+```sql
+private string password;
+public string Password
+{
+    set { password = value; }  // Only sets the value
+}
+```
+You can set the value, but not read it outside the class.
+
 
 

@@ -210,4 +210,35 @@ A static field belongs to the class itself, not to any specific object.
 This means all instances of the class share the same static field.
 
 
+## 📌  Syntax & Example:
+
+```sql 
+public class Car
+{
+    // Static fields (shared across all objects)
+    public static int MaxSpeed;
+    public static string DefaultFuelType;
+
+    // Instance fields (specific to each object)
+    public string Model { get; set; }
+    public int Speed { get; set; }
+
+    // Static constructor
+    static Car()
+    {
+        MaxSpeed = 180;
+        DefaultFuelType = "Petrol";
+        Console.WriteLine("Static constructor called.");
+    }
+
+    // Regular constructor
+    public Car(string model, int speed)
+    {
+        Model = model;
+        Speed = speed > MaxSpeed ? MaxSpeed : speed;
+    }
+}
+``` 
+
+
 

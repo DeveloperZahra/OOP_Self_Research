@@ -239,6 +239,22 @@ public class Car
     }
 }
 ``` 
+## 📌 Usage in Main:
 
+```sql 
+class Program
+{
+    static void Main()
+    {
+        Car car1 = new Car("Toyota", 150);
+        Car car2 = new Car("BMW", 250);  // Speed will be limited to 180
+    }
+}
+```
+## ⌛ Output:
 
+```sql 
+Static constructor called.
+```
+💡 (Only appears once, even if many objects are created)
 

@@ -302,7 +302,7 @@ Console.WriteLine(Car.MaxSpeed);  // Access static field directly
 A constructor is a special method in a class that is automatically called when an object of the class is created. It is used to initialize objects.
 
 
-**1. Default Constructor**
+**1. Default Constructor:**
 
 ⭐ Definition: A constructor that takes no parameters.
 
@@ -323,7 +323,7 @@ class Person
 ```
 
 
-**2. Parameterized Constructor** 
+**2. Parameterized Constructor:** 
 
 ⭐ Definition: A constructor that accepts arguments (parameters).
 
@@ -342,7 +342,7 @@ class Person
 }
 
 ```
-**3. Copy Constructor** 
+**3. Copy Constructor:** 
 
 ⭐ Definition: A constructor that creates a new object by copying values from another object.
 
@@ -366,7 +366,7 @@ class Person
     }
 }
 ```
-**4. Static Constructor**
+**4. Static Constructor:**
 
 ⭐ Definition: A constructor declared using the static keyword.
 

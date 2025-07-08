@@ -180,6 +180,17 @@ public double Area
 ```
 Useful when the property is calculated based on other fields.
 
+# 🌟 Benefits of using Properties with get and set
+
+| Feature             | Description                                                                |
+| ------------------- | -------------------------------------------------------------------------- |
+| ✅ **Encapsulation** | You can hide internal data and only expose what's needed.                  |
+| ✅ **Validation**    | You can check or limit values inside `set` to ensure correctness.          |
+| ✅ **Flexibility**   | You can later change how a value is stored without affecting outside code. |
+| ✅ **Debugging**     | Easier to trace and debug because logic is inside `get`/`set`.             |
+| ✅ **Security**      | Prevent direct access to fields and protect sensitive data.                |
+
+
 
 
 

@@ -124,5 +124,26 @@ A property is a way to control access to the fields of a class.
 This is called an auto-implemented property.
 You don't need to write a private field — C# handles that automatically
 
+## 📌 Custom Property Example:
+```sql
+private int _speed;
+
+public int Speed
+{
+    get { return _speed; }
+    set
+    {
+        if (value > 0)
+            _speed = value;
+        else
+            _speed = 0;
+    }
+}
+```
+Here:
+
+get returns _speed
+
+set adds a condition to make sure the value is not negative.
 
 

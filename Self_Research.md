@@ -103,3 +103,15 @@ of the code can access this data except that function.
 
 
 ![](image/ClassConceptsObjectOrientedProgramming.webp)
+
+------------------------------------------
+# 🧠 What are get and set in C#?
+
+In C#, get and set are called accessors, and they are part of a property.
+A property is a way to control access to the fields of a class.
+
+✅ **get:** Returns the value of the property (read access).
+
+✅ **set:** Assigns a new value to the property (write access).
+
+

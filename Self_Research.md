@@ -196,4 +196,13 @@ A static constructor is a special constructor that is used to initialize static 
 It runs once only, automatically, before the first object is created or any static member is accessed.
 
 
+## 📌 Key Rules: 
+
+✅ It has no parameters.
+
+✅ It cannot be called manually.
+
+✅ It runs only once per class, not per object.
+
+
 

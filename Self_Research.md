@@ -387,10 +387,6 @@ class Person
 ```
 
 
-
-
-
-
 ## 🧠 Summary of Constructor Types in C#
 
 | **Constructor Type**          | **Accepts Parameters?** | **Purpose**                                             | **Notes**                                                                          |

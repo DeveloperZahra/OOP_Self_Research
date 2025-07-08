@@ -269,3 +269,9 @@ Static constructor called.
 
 ⭐ Example: MaxAllowedSpeed, TotalUserCount, or database connection strings
 
+📌 **Use Static Constructors when:**  
+
+⭐ You want to initialize static fields once.
+
+⭐ You want automatic setup before using the class
+

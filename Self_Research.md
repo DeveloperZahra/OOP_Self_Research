@@ -114,4 +114,15 @@ A property is a way to control access to the fields of a class.
 
 ✅ **set:** Assigns a new value to the property (write access).
 
+## 📌 Syntax Example (Auto-Implemented Property):
+
+       public class Car
+     {
+    public string Model { get; set; }  // Auto property
+     }
+
+This is called an auto-implemented property.
+You don't need to write a private field — C# handles that automatically
+
+
 

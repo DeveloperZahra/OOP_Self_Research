@@ -190,7 +190,10 @@ Useful when the property is calculated based on other fields.
 | ✅ **Debugging**     | Easier to trace and debug because logic is inside `get`/`set`.             |
 | ✅ **Security**      | Prevent direct access to fields and protect sensitive data.                |
 
-
+-------
+## 🧠 What is a Static Constructor?
+A static constructor is a special constructor that is used to initialize static members (fields or properties) of a class.
+It runs once only, automatically, before the first object is created or any static member is accessed.
 
 
 

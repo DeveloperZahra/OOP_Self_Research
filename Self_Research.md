@@ -275,3 +275,11 @@ Static constructor called.
 
 ⭐ You want automatic setup before using the class
 
+📌 **Benefits**
+
+| Feature              | Description                                                             |
+| -------------------- | ----------------------------------------------------------------------- |
+| ✅ **Shared data**    | Same static field value shared by all objects.                          |
+| ✅ **One-time setup** | Static constructor is perfect for setup like configurations or caching. |
+| ✅ **Performance**    | Efficient since static constructor runs only once.                      |
+| ✅ **Encapsulation**  | Hides setup logic inside the static constructor.                        |

@@ -297,6 +297,36 @@ Static constructor called.
 Console.WriteLine(Car.MaxSpeed);  // Access static field directly
 ```
 
+## 🧠 What is a Constructor?
+
+A constructor is a special method in a class that is automatically called when an object of the class is created. It is used to initialize objects.
+
+
+**1. Default Constructor**
+
+⭐ Definition: A constructor that takes no parameters.
+
+⭐ Used for: Giving default values to fields.
+ 
+⭐ Example:
+
+```sql 
+class Person
+{
+    public string name;
+
+    public Person()  // Default constructor
+    {
+        name = "Unknown";
+    }
+}
+```
+
+
+
+
+
+
 ## 🧠 Summary of Constructor Types in C#
 
 | **Constructor Type**          | **Accepts Parameters?** | **Purpose**                                             | **Notes**                                                                          |

@@ -342,6 +342,49 @@ class Person
 }
 
 ```
+**3. Copy Constructor** 
+
+⭐ Definition: A constructor that creates a new object by copying values from another object.
+
+⭐ Used for: Duplicating objects.
+
+⭐ Example:
+
+```sql 
+class Person
+{
+    public string name;
+
+    public Person(string n)
+    {
+        name = n;
+    }
+
+    public Person(Person p)  // Copy constructor
+    {
+        name = p.name;
+    }
+}
+```
+**4. Static Constructor**
+
+⭐ Definition: A constructor declared using the static keyword.
+
+⭐ Used for: Initializing static fields. It runs only once, when the class is first loaded.
+
+⭐ Example:
+
+```sql 
+class Person
+{
+    static string greeting;
+
+    static Person()  // Static constructor
+    {
+        greeting = "Hello!";
+    }
+}
+```
 
 
 

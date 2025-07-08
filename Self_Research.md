@@ -283,3 +283,16 @@ Static constructor called.
 | ✅ **One-time setup** | Static constructor is perfect for setup like configurations or caching. |
 | ✅ **Performance**    | Efficient since static constructor runs only once.                      |
 | ✅ **Encapsulation**  | Hides setup logic inside the static constructor.                        |
+
+
+⚠️ **Important Notes** 
+
+⭐ You cannot access this in a static constructor because it’s not tied to any object.
+
+⭐ You cannot have more than one static constructor in a class.
+
+⭐ Static members can also be accessed without creating an object:
+
+```sql 
+Console.WriteLine(Car.MaxSpeed);  // Access static field directly
+```

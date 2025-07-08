@@ -146,4 +146,16 @@ get returns _speed
 
 set adds a condition to make sure the value is not negative.
 
+## 💎 More Property Examples
+
+**1. Read-only Property** 
+
+```sql
+
+public string Brand { get; } = "Toyota";
+
+```
+You can only read this value. It can't be changed after initialization.
+
+
 

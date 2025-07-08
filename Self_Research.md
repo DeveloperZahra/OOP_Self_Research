@@ -323,6 +323,27 @@ class Person
 ```
 
 
+**2. Parameterized Constructor** 
+
+⭐ Definition: A constructor that accepts arguments (parameters).
+
+⭐ Used for: Initializing fields with specific values during object creation.
+
+⭐ Example:
+```sql 
+class Person
+{
+    public string name;
+
+    public Person(string n)  // Parameterized constructor
+    {
+        name = n;
+    }
+}
+
+```
+
+
 
 
 

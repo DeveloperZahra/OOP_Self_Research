@@ -168,5 +168,18 @@ public string Password
 ```
 You can set the value, but not read it outside the class.
 
+**3. Computed Property**
+
+```sql
+private double radius;
+
+public double Area
+{
+    get { return Math.PI * radius * radius; }  // Calculate value dynamically
+}
+```
+Useful when the property is calculated based on other fields.
+
+
 
 

@@ -204,6 +204,7 @@ It runs once only, automatically, before the first object is created or any stat
 
 ✅ It runs only once per class, not per object.
 
+------------
 
 ## 🧠 What are Static Fields?
 A static field belongs to the class itself, not to any specific object.
@@ -257,4 +258,14 @@ class Program
 Static constructor called.
 ```
 💡 (Only appears once, even if many objects are created)
+
+-----------
+
+## 💎 When to Use Static Fields and Static Constructors?
+
+📌 **Use Static Fields when:**
+
+⭐ You need shared configuration or counters across all objects.
+
+⭐ Example: MaxAllowedSpeed, TotalUserCount, or database connection strings
 

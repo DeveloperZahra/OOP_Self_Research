@@ -412,3 +412,16 @@ class derived-class : parent-class
 ```
 📌 **Derived Class:** The class that inherits the other class is known as a subclass(or a derived class, extended class, or child class). The subclass can add its fields and methods in addition to the superclass properties.
 📌 **Parent Class:** The class whose features are inherited is known as a superclass (or a base class or a parent class).
+
+## 🧠 Types of Inheritance:
+
+In C#, there are mainly 4 types of inheritance which are described below:
+
+**1. Single Inheritance:** A derived class that inherits from only one base class.
+**2. Multi-level Inheritance:**  A derived class that inherits from a base class and the derived class itself becomes the base class for another derived class.
+
+**3. Hierarchical Inheritance:**  A base class that serves as a parent class for two or more derived classes.
+
+**4. Multiple Inheritance:** A derived class that inherits from two or more base classes (Using Interface).
+
+**5. Hybrid Inheritance:** A Hybrid Inheritance is a mix of two or more inheritances.

@@ -442,6 +442,35 @@ In C#, there are mainly 4 types of inheritance which are described below:
 | **`virtual`**  | Allows a method to be *overridden* by derived classes.                     | Use it in the **base class** when you want to allow child classes to change the method behavior. |
 | **`override`** | Used to **change the behavior** of a `virtual` method from the base class. | Use it in the **derived class** when you want to replace the base class implementation.          |
 
+## 🧠 Example:
+
+```sql
+class Payment
+{
+    public virtual void ProcessPayment()
+    {
+        Console.WriteLine("Processing general payment...");
+    }
+}
+
+class CreditCardPayment : Payment
+{
+    public override void ProcessPayment()
+    {
+        Console.WriteLine("Processing credit card payment...");
+    }
+}
+
+class CashPayment : Payment
+{
+    public override void ProcessPayment()
+    {
+        Console.WriteLine("Processing cash payment...");
+    }
+}
+
+``` 
+
 
 
 

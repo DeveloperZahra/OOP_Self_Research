@@ -396,3 +396,19 @@ class Person
 | **Copy Constructor**          | ✅ Yes (an object)       | Creates a new object by copying another object’s values | Useful for creating independent duplicates                                         |
 | **Static Constructor**        | ❌ No                    | Initializes static members (shared across all objects)  | Called once automatically, before any object is created or static members accessed |
 
+---------------------------------------------
+
+# 💎 Inheritance in C# 
+
+Inheritance is a fundamental concept in object-oriented programming that allows a child class to inherit the properties from the superclass. The new class inherits the properties and methods of the existing class and can also add new properties and methods of its own. Inheritance promotes code reuse, simplifies code maintenance, and improves code organization
+
+## 🧠  Syntax:
+
+```sql
+class derived-class : parent-class  
+{  
+     // methods and fields  
+}
+```
+📌 **Derived Class:** The class that inherits the other class is known as a subclass(or a derived class, extended class, or child class). The subclass can add its fields and methods in addition to the superclass properties.
+📌 **Parent Class:** The class whose features are inherited is known as a superclass (or a base class or a parent class).

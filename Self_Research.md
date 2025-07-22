@@ -433,4 +433,15 @@ In C#, there are mainly 4 types of inheritance which are described below:
 |-------------------------|-----------------------------|
 |Code Reusability: Inheritance allows us to reuse existing code by inheriting properties and methods from an existing class.|Tight Coupling: Inheritance creates a tight coupling between the base class and the derived class, which can make the code more difficult to maintain.|
 |Code Maintenance: Inheritance makes code maintenance easier by allowing us to modify the base class and have the changes automatically reflected in the derived classes.|Complexity: Inheritance can increase the complexity of the code by introducing additional levels of abstraction.|
-|Code Organization: Inheritance improves code organization by grouping related classes together in a hierarchical structure.|Fragility: Inheritance can make the code more fragile by creating dependencies between the base class and the derived class.\
+|Code Organization: Inheritance improves code organization by grouping related classes together in a hierarchical structure.|Fragility: Inheritance can make the code more fragile by creating dependencies between the base class and the derived class.|
+
+## 🧠 Difference between virtual and override in C#:
+
+| Keyword        | Meaning                                                                    | When to use it?                                                                                  |
+| -------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| **`virtual`**  | Allows a method to be *overridden* by derived classes.                     | Use it in the **base class** when you want to allow child classes to change the method behavior. |
+| **`override`** | Used to **change the behavior** of a `virtual` method from the base class. | Use it in the **derived class** when you want to replace the base class implementation.          |
+
+
+
+

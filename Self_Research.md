@@ -425,3 +425,12 @@ In C#, there are mainly 4 types of inheritance which are described below:
 **4. Multiple Inheritance:** A derived class that inherits from two or more base classes (Using Interface).
 
 **5. Hybrid Inheritance:** A Hybrid Inheritance is a mix of two or more inheritances.
+
+
+## 🧠 Advantages & Disadvantages of Inheritance:
+
+|Advantages of Inheritance| Disadvantages of Inheritance|
+|-------------------------|-----------------------------|
+|Code Reusability: Inheritance allows us to reuse existing code by inheriting properties and methods from an existing class.|Tight Coupling: Inheritance creates a tight coupling between the base class and the derived class, which can make the code more difficult to maintain.|
+|Code Maintenance: Inheritance makes code maintenance easier by allowing us to modify the base class and have the changes automatically reflected in the derived classes.|Complexity: Inheritance can increase the complexity of the code by introducing additional levels of abstraction.|
+|Code Organization: Inheritance improves code organization by grouping related classes together in a hierarchical structure.|Fragility: Inheritance can make the code more fragile by creating dependencies between the base class and the derived class.\
